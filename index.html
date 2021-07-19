@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, intial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Challenge 3:Code Quiz</title>
+     <link rel="stylesheet"  href=".css/style.css">
+     
+  </head>
+ <body>
+     <!--header-->
+     <header class="header"></header>
+         <p id="highScore" class="header-h2">High Score</p>
+     <div class="container"></div>
+     <div class="Start Here"></div>
+         <div class="header"></div>
+        
+        <!--Link to highScore-->
+        <div id="Welcome" class="welcome box">
+            <p>Welcome to Code Quiz</p>
+            <p>Your score will be timed and based on correct answers. Once the timer goes off answer will automatically incorrect</p>
+        </div>
+
+        <button id="startbtn">Start Code Quiz</button>
+        <button id="startPageScore." onclick="showScore()">Scores</button> 
+<!--timer-->
+<div id="Quiz"></div>
+        <div id="timer" class="Time left"></div>
+<!--Quiz Layout-->
+        <div id="quizBox" class="box"></div>
+        <div id="questions" class="question-prompt"></div>
+        <button id="choiceA" onclick= "checkAnswer('a')">A</button>">
+        <button id="choiceB" onclick= "checkAnswer('b')">B</button>">
+        <button id="choiceC" onclick= "checkAnswer('c')">C</button>">
+        <button id="choiceD" onclick= "checkAnswer('d')">D</button>">
+        <div id="result"></div>
+        <div id="quizEnded"></div>
+
+
+        <div id="finalHighScore" class="highScore"></div> 
+        <input type="text" placeholder="Name here" name="score-name" id="score-text"/>
+        <button id="enterScore">Enter Score</button>
+        
+        <div id="highScoreContainer"></div>
+            <div id="start-scorePage"></div>
+            <div id="score-header"></div>
+            <h3>user name</h3>
+            <h3>Score</h3>
+        
+        <div id="score-name"></div>
+        
+
+<div id="endBtns"></div>
+    <button id="tryAgain" onclick="restartQuiz">startAgain</button> 
+    <button id="clearScore" onclick="clearScore()">clearScore</button>  
+    <script src="script.js"></script>
