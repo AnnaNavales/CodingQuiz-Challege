@@ -1,0 +1,3 @@
+
+As a bootcamp student I want to challenge myself in taking timed quiz on JavaScript fundamental that can store high scores. So I can compare my progress to my peers.
+When in take the quiz I can start by clicking the button. A timer will start and questions will be displayed and when I anwer the question I am presented with anothe question. If my anwer is incorrect, time will subtracted from the clock. All questions are answered or timer reaches 0, then game is over. When game is over I can save my initials and score.ans

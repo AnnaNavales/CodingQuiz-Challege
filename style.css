@@ -1,0 +1,169 @@
+#answerOne{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+#answeTwo{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+#answeThree{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #25274d;
+}
+
+.box{
+    background-color: white;
+    width: 50%;
+    border: 5px black;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    justify-content: center;
+    box-shadow: 1px 1px 5px gray;
+}
+
+button{
+    padding:  8px 15px;
+    color: whitesmoke;
+    background-color: violet;
+    border-radius: 5px;
+    border: 0px;
+    margin: 10px;
+    margin-left: 35%;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+button:hover{
+    background-color: purple;
+}
+
+
+.header{
+    background-color: plum;
+    padding: 10px;
+}
+
+.header-h2{
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+input{
+    height: 50%;
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 2em;
+    border: none;
+}
+
+.highScore{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+li:before{
+    height:  50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: black;
+    font-size: 2em;
+}
+
+
+
+li::before{
+    content: "\200B";
+    position: absolute;
+}
+
+li::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.next-button{
+    padding: 8px 15px;
+    color: white;
+    background-color: white;
+    background-color: violet;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 1.5em;
+    margin-left: 80%;
+    font-family: sans-serif;
+}
+
+.question{
+    font-size: 24px;
+    font-weight: 900;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.quizField{
+    margin: auto;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+}
+
+.question-prompt{
+    font-size: 1.5em;
+    font: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.start-button{
+    padding: 8px 15px;
+    color: white;
+    background-color: plum;
+    border-radius: 5px;
+    border: 0px;
+    margin: 10px;
+    margin-left: 45%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.timer{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: sans-serif;
+    color: plum;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: sans-serif;
+    color: whitesmoke;
+
+}
+
+.welcome {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
